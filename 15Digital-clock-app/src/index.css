@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    background-image: url(assets/black-brick-wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clock-container{
+    backdrop-filter: blur(3px);
+    width: 70vh;
+    padding: 10px 0;
+
+}
+
+.clock{
+    color: white;
+    font-size: 5rem;
+    font-weight:bold;
+    text-align: center;
+    text-shadow: 6px 3px 13px hsla(191, 79%, 29%, 0.837);
+}
